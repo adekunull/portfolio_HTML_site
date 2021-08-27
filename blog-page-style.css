@@ -1,0 +1,127 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	color: rgb(139, 139, 139);
+	position: relative;
+}
+
+.h1_title {
+	color: #404040;
+}
+
+.h1_description {
+	color: lightblue;
+}
+
+.nav__wrapper {
+	display: flex;
+	flex-direction: column;
+	background-image: url("_tools_apla.png");
+	background-repeat: round;
+	max-width: 200px;
+	align-items: center;
+	padding: 50px 0px 50px 0px;
+}
+
+.nav__socialmedia img,
+.nav__list img {
+	padding-bottom: 10px;
+}
+
+.nav__list--line img {
+	width: 100px;
+}
+
+.nav__logo {
+	padding-bottom: 50px;
+}
+
+.content__wrapper {
+	display: flex;
+	flex-direction: row;
+	width: 1600px;
+	justify-content: space-between;
+	position: absolute;
+	left: 13%;
+	top: 2%;
+}
+
+.categories-content__wrapper {
+	width: 400px;
+	margin-left: 150px;
+}
+
+.blog-content__posts {
+	margin-top: 75px;
+}
+
+.blog-content__posts > div {
+	display: flex;
+	margin: 50px 0px 50px 0px;
+}
+
+.post__photo {
+	width: 400px;
+	height: 250px;
+	background-color: grey;
+}
+
+.post__content {
+	margin-left: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.post-content__button {
+	align-self: flex-end;
+	padding-top: 10px;
+	color: lightblue;
+}
+
+.categories-content__list {
+	box-shadow: 5px 5px 5px 0px rgba(128, 128, 128, 0.2);
+	padding: 0px 30px 45px 0px;
+}
+
+.categories-content__graphic {
+	width: 400px;
+	height: 300px;
+	background-color: lightblue;
+}
+
+.categories-content__list--category {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0px 15px 0px;
+}
+
+.categories-content__hasztag {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.categories-content__hasztag,
+.categories-content__list--category {
+	color: lightblue;
+	font-size: 18px;
+}
+
+.categories-content__list--line,
+.blog-content__posts--line {
+	height: 0px;
+	border: 1px solid lightgrey;
+}
+
+.content-graphic__top {
+	position: absolute;
+	left: 60%;
+	top: 7%;
+}
+
+.content-graphic__bottom {
+	position: absolute;
+	left: 70%;
+	top: 53%;
+}
